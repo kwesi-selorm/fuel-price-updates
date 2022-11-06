@@ -1,0 +1,6 @@
+.priceCard {
+	background-color: aqua;
+	display: flex;
+	justify-content: space-between;
+	padding-inline: 0.9em;
+}

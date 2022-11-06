@@ -1,0 +1,34 @@
+@import "../../index.css";
+
+.wrapper {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	gap: 0.1em;
+}
+
+.customCheckbox {
+	appearance: none;
+	border: 1px solid green;
+	border-radius: 3px;
+	padding: 9px;
+	position: relative;
+}
+
+.customCheckbox:checked {
+	background-color: green;
+}
+
+.customCheckbox:checked:after {
+	content: '\2713';
+	font-size: 15px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	text-align: center;
+	color: white;
+}
+
+.customCheckboxLabel {
+	font-size: var(--font-size-laptop-medium);
+}
